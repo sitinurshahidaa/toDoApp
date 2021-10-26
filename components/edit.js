@@ -40,7 +40,7 @@ export default class Edit extends Component {
 
 //update method,calls API and updates the data
 updateToDo = () => {
-  fetch('https://23b2-2001-e68-443b-9515-8d0c-bc70-7113-4b3b.ngrok.io/api/todos/' + this.state.id , {
+  fetch('https://19ec-2001-e68-443b-9515-8d0c-bc70-7113-4b3b.ngrok.io/api/todos/' + this.state.id , {
     method: 'PUT',
     headers: {
       Accept: 'application/json',
@@ -75,7 +75,7 @@ setTitle = (value) => {
  
 //fetches data when page is renderd
 componentDidMount () {
-  fetch('https://23b2-2001-e68-443b-9515-8d0c-bc70-7113-4b3b.ngrok.io/api/todos/' + this.state.id, {
+  fetch('https://19ec-2001-e68-443b-9515-8d0c-bc70-7113-4b3b.ngrok.io/api/todos/' + this.state.id, {
       method: 'GET',
       headers: {
         Accept: 'application/json',

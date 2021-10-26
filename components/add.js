@@ -37,7 +37,7 @@ export default class Add extends Component {
 
 //method to save todo by calling API and making a POST call
 saveToDo = () => {
-  fetch('https://23b2-2001-e68-443b-9515-8d0c-bc70-7113-4b3b.ngrok.io/api/todos', {
+  fetch('https://19ec-2001-e68-443b-9515-8d0c-bc70-7113-4b3b.ngrok.io/api/todos', {
     method: 'POST',
     headers: {
       Accept: 'application/json',

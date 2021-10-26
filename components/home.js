@@ -42,7 +42,7 @@ export default class HomeScreen extends Component {
   }
 
   fetchData(){
-    fetch('https://23b2-2001-e68-443b-9515-8d0c-bc70-7113-4b3b.ngrok.io/api/todos', {
+    fetch('https://19ec-2001-e68-443b-9515-8d0c-bc70-7113-4b3b.ngrok.io/api/todos', {
       method: 'GET',
       headers: {
         Accept: 'application/json',
@@ -72,7 +72,7 @@ export default class HomeScreen extends Component {
   //method to search based on the keyed infilled. API link to be replaced based on your api link
 
   search = () => {
-    fetch('https://23b2-2001-e68-443b-9515-8d0c-bc70-7113-4b3b.ngrok.io/api/todos' + '?title=' + this.state.title, {
+    fetch('https://19ec-2001-e68-443b-9515-8d0c-bc70-7113-4b3b.ngrok.io/api/todos' + '?title=' + this.state.title, {
       method: 'GET',
       headers: {
         Accept: 'application/json',
@@ -97,7 +97,7 @@ export default class HomeScreen extends Component {
 
   //to delete from database
   handleDelete = (id, index) => {
-    fetch('https://23b2-2001-e68-443b-9515-8d0c-bc70-7113-4b3b.ngrok.io/api/todos/' + id, {
+    fetch('https://19ec-2001-e68-443b-9515-8d0c-bc70-7113-4b3b.ngrok.io/api/todos/' + id, {
       method: 'DELETE',
       headers: {
         Accept: 'application/json',
